@@ -169,7 +169,7 @@ createRestaurantHTML = (restaurant) => {
   let srcURL = DBHelper.imageUrlForRestaurant(restaurant).split('.');
   let imageName = srcURL[0] + '_1x.jpg';
   image.src = imageName;
-  image.alt = restaurant.name;
+  image.alt = 'Image of' + restaurant.name;
   image.title = restaurant.name;
   li.append(image);
 

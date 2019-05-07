@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -20,7 +20,7 @@
     <nav>
       <h1 class="page-head"><a href="/">Restaurant Reviews</a></h1>
       <!-- Beginning breadcrumb -->
-      <ul id="breadcrumb" >
+      <ul id="breadcrumb" aria-label="breadcrumb">
         <li><a href="/">Home</a></li>
       </ul>
       <!-- End breadcrumb -->
@@ -45,7 +45,7 @@
     <!-- Beginning map -->
     <section id="map-container" aria-labelledby="map-head">
       <h2 id="map-head" class="access-header">Map Display</h2>
-      <div id="map"></div>
+      <div id="map" role="application" aria-label="Location"></div>
     </section>
     <!-- End map -->
     <!-- Beginning reviews -->
